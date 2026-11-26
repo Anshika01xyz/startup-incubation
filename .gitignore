@@ -1,0 +1,15 @@
+target/
+.idea/
+.vscode/
+*.iml
+*.log
+logs/*
+!logs/.gitkeep
+uploads/*
+!uploads/.gitkeep
+reports/*
+!reports/.gitkeep
+src/main/resources/application-local.properties
+/dataset/india_startup_funding_sample.csv
+
+backend-data/
