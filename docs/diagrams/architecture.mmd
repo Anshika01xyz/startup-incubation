@@ -1,0 +1,9 @@
+flowchart TB
+    UI[JavaFX Presentation] --> SVC[PlatformService]
+    SVC --> AUTH[Authentication and Role Checks]
+    SVC --> JDBC[JDBC / Db Transaction Helper]
+    JDBC --> DB[(MySQL Database)]
+    CSV[Public Funding CSV] --> IMP[CSV Importer]
+    IMP --> HIST[(External Funding Rounds)]
+    DB --> DASH[Dashboard / Startup 360 / Reports]
+    HIST --> MARKET[Historical Market Data View]

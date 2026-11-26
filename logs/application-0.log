@@ -1,0 +1,10 @@
+Nov 26, 2026 9:32:21 AM com.startup.platform.util.AppLog info
+INFO: Foundry application initializing
+Nov 26, 2026 9:32:22 AM com.startup.platform.util.AppLog info
+INFO: Foundry application started
+Nov 26, 2026 9:32:32 AM com.startup.platform.util.AppLog info
+INFO: Complete historical market dataset ready: all 5,006 records are available.
+Nov 26, 2026 9:33:15 AM com.startup.platform.util.AppLog info
+INFO: Complete historical market dataset ready: all 5,006 records are available.
+Nov 26, 2026 9:33:58 AM com.startup.platform.util.AppLog info
+INFO: Foundry application stopped

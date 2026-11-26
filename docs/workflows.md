@@ -1,0 +1,8 @@
+# Integrated application workflows
+
+1. **Founder:** registers an account → account becomes active → creates startup → adds team members and optional registered co-founders → uploads supporting documents → records progress.
+2. **Incubation:** founder submits an application against an available programme → evaluator records innovation, market, feasibility and team scores (0–10) → recommendation updates application/startup status and notifies the founder.
+3. **Mentorship:** mentor self-registers with expertise and experience → account remains pending → administrator approves/rejects → approved mentor can sign in and be assigned to a startup → mentor sees assigned milestones and records status/history updates → founder receives notifications.
+4. **Funding:** founder creates an INR funding request for an owned startup and uploads supporting documents → active investors receive notifications → investor saves sector interests and INR ticket range → explainable fit ranks sector matches and ticket-range matches → investor commits an amount that cannot exceed the remaining request balance → founder is notified.
+5. **Reporting:** Startup 360° reads connected founder/startup, application, mentor, milestone, progress, readiness and funding records. Milestone health is derived from due date/status. Activity timeline, dashboard counts, notifications and serializable report snapshots use the same MySQL data.
+6. **External data:** the separately downloaded Fliar CSV is previewed and imported through Java into `external_funding_rounds` in one JDBC transaction. Quoted commas, escaped quotes and embedded newlines are parsed; duplicate round IDs/fingerprints are skipped. Historical funding amounts remain USD and are never turned into live funding requests.
