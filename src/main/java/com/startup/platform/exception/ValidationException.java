@@ -1,0 +1,6 @@
+package com.startup.platform.exception;
+
+public final class ValidationException extends IllegalArgumentException {
+    private static final long serialVersionUID = 1L;
+    public ValidationException(String message) { super(message); }
+}

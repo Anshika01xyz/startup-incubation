@@ -1,0 +1,50 @@
+/* Foundry — Merlot & Champagne visual system */
+.root{-fx-font-family:"Segoe UI","Inter","Arial",sans-serif;-fx-font-size:13px;-fx-background-color:#F8F1E4;-fx-text-fill:#48232E}
+.label{-fx-text-fill:#48232E}.auth-shell,.app-shell{-fx-background-color:#F8F1E4}
+.auth-intro{-fx-max-width:470px;-fx-padding:28 12 28 10}.auth-card{-fx-background-color:#FFFDF8;-fx-background-radius:24;-fx-border-color:#E9D7A9;-fx-border-radius:24;-fx-padding:30;-fx-effect:dropshadow(gaussian,rgba(72,35,46,.13),28,.12,0,8)}
+.eyebrow{-fx-font-size:10px;-fx-font-weight:800;-fx-letter-spacing:2px;-fx-text-fill:#793E4C}.hero-title{-fx-font-size:46px;-fx-font-weight:800;-fx-text-fill:#48232E}.hero-copy{-fx-font-size:16px;-fx-text-fill:#795B5D;-fx-line-spacing:5px}.chip{-fx-background-color:#E9D7A9;-fx-background-radius:18;-fx-padding:7 11;-fx-text-fill:#48232E;-fx-font-size:11px}
+.section-title{-fx-font-size:19px;-fx-font-weight:800;-fx-text-fill:#48232E}.muted-copy{-fx-text-fill:#8A7070;-fx-font-size:12px}.brand-mark{-fx-font-size:30px;-fx-font-weight:900;-fx-text-fill:#48232E}
+.sidebar{-fx-background-color:#48232E;-fx-padding:20 14 18 16;-fx-border-color:transparent #793E4C transparent transparent;-fx-border-width:0 1 0 0}.sidebar .label,.sidebar .brand-mark{-fx-text-fill:#F8F1E4}.profile-chip{-fx-background-color:#793E4C;-fx-background-radius:12;-fx-padding:12;-fx-text-fill:#F8F1E4;-fx-font-size:11px;-fx-font-weight:700}
+.nav-list{-fx-padding:6 0 0 0}.nav-button{-fx-background-color:transparent;-fx-text-fill:#E9D7A9;-fx-font-weight:600;-fx-alignment:CENTER_LEFT;-fx-padding:11 13;-fx-background-radius:11;-fx-cursor:hand}.nav-button:hover{-fx-background-color:#793E4C;-fx-translate-x:2px}.nav-button.nav-active{-fx-background-color:#E9D7A9;-fx-text-fill:#48232E;-fx-font-weight:800}
+.workspace-header{-fx-padding:10 8 14 8;-fx-border-color:transparent transparent #E9D7A9 transparent}.page-title{-fx-font-size:24px;-fx-font-weight:800;-fx-text-fill:#48232E}.page-subtitle{-fx-font-size:11px;-fx-text-fill:#927879}.content-stage{-fx-background-color:#FFFDF8;-fx-background-radius:18;-fx-padding:0}.page-scroll,.page-scroll>.viewport{-fx-background-color:transparent}.page-scroll{-fx-background:transparent;-fx-border-color:transparent}.page-content{-fx-spacing:12;-fx-padding:24;-fx-background-color:#FFFDF8}
+.button{-fx-background-color:#48232E;-fx-text-fill:#F8F1E4;-fx-font-weight:700;-fx-background-radius:10;-fx-padding:10 17;-fx-cursor:hand}.button:hover{-fx-background-color:#793E4C;-fx-effect:dropshadow(gaussian,rgba(72,35,46,.18),8,.1,0,2)}.button:pressed{-fx-translate-y:1px}.primary-button{-fx-background-color:#48232E;-fx-text-fill:#F8F1E4}.secondary-button{-fx-background-color:#E9D7A9;-fx-text-fill:#48232E}.secondary-button:hover{-fx-background-color:#E1C987}.quiet-button{-fx-background-color:transparent;-fx-text-fill:#793E4C;-fx-underline:true}
+.text-field,.password-field,.text-area,.combo-box,.date-picker{-fx-background-color:#FFFDF8;-fx-border-color:#E3D5C4;-fx-border-radius:9;-fx-background-radius:9;-fx-padding:10;-fx-prompt-text-fill:#B6A39A}.text-field:focused,.password-field:focused,.text-area:focused,.combo-box:focused,.date-picker:focused{-fx-border-color:#A86C70;-fx-effect:dropshadow(gaussian,rgba(121,62,76,.15),9,0,0,1)}
+.list-view,.table-view{-fx-background-color:#FFFDF8;-fx-border-color:#E9D7A9;-fx-border-radius:10;-fx-background-radius:10;-fx-padding:4}.list-cell{-fx-padding:10 12;-fx-text-fill:#48232E}.list-cell:odd{-fx-background-color:#FBF6EC}.list-cell:filled:selected{-fx-background-color:#E9D7A9;-fx-text-fill:#48232E}.separator .line{-fx-border-color:#E9D7A9}.dialog-pane{-fx-background-color:#FFFDF8}.dialog-pane .header-panel{-fx-background-color:#F8F1E4}.scroll-bar:vertical .thumb,.scroll-bar:horizontal .thumb{-fx-background-color:#C9AFA8;-fx-background-radius:8}.scroll-bar:vertical .track,.scroll-bar:horizontal .track{-fx-background-color:#F8F1E4}.session-status{-fx-background-color:#F8F1E4;-fx-text-fill:#793E4C;-fx-font-size:11px;-fx-padding:10 2 0 2}
+.dashboard-page{-fx-padding:24;-fx-spacing:18;-fx-background-color:#FFFDF8}.dashboard-heading{-fx-font-size:25px;-fx-font-weight:900;-fx-text-fill:#48232E}.kpi-card{-fx-background-radius:17;-fx-border-radius:17;-fx-border-width:1;-fx-min-height:118;-fx-effect:dropshadow(gaussian,rgba(72,35,46,.08),12,.08,0,3)}.kpi-olive,.kpi-sage{-fx-background-color:#F8F1E4;-fx-border-color:#E9D7A9}.kpi-lilac,.kpi-orange{-fx-background-color:#F2E5D7;-fx-border-color:#E3C9B9}.kpi-label{-fx-font-size:10px;-fx-font-weight:800;-fx-text-fill:#916D70}.kpi-value{-fx-font-size:27px;-fx-font-weight:900;-fx-text-fill:#48232E}.kpi-note{-fx-font-size:11px;-fx-text-fill:#927879}.dashboard-panel{-fx-background-color:#FBF6EC;-fx-background-radius:17;-fx-padding:15;-fx-border-color:#E9D7A9;-fx-border-radius:17}.panel-title{-fx-font-size:15px;-fx-font-weight:800;-fx-text-fill:#48232E}.data-provenance{-fx-background-color:#F2E5D7;-fx-background-radius:12;-fx-padding:12 15;-fx-text-fill:#793E4C;-fx-font-size:11px}
+.chart{-fx-padding:8;-fx-background-color:transparent}.chart-title{-fx-font-size:14px;-fx-font-weight:800;-fx-text-fill:#48232E}.chart-plot-background{-fx-background-color:#FFFDF8;-fx-background-radius:10}.chart-vertical-grid-lines,.chart-horizontal-grid-lines{-fx-stroke:#E9D7A9}.default-color0.chart-bar{-fx-bar-fill:#48232E}.default-color1.chart-bar{-fx-bar-fill:#793E4C}.default-color2.chart-bar{-fx-bar-fill:#D5B66C}.default-color0.chart-series-line{-fx-stroke:#48232E;-fx-stroke-width:3px}.default-color0.chart-line-symbol{-fx-background-color:#48232E,#FFFDF8}.chart-pie-label{-fx-fill:#48232E;-fx-font-size:10px}
+.table-view .column-header-background{-fx-background-color:#E9D7A9;-fx-background-radius:8 8 0 0}.table-view .column-header,.table-view .filler{-fx-background-color:transparent;-fx-size:34px}.table-view .column-header .label{-fx-text-fill:#48232E;-fx-font-weight:800}.table-row-cell{-fx-cell-size:34px;-fx-background-color:#FFFDF8}.table-row-cell:odd{-fx-background-color:#FBF6EC}.table-row-cell:selected{-fx-background-color:#E9D7A9}
+
+
+/* Shared dashboard chart readability: axis titles, category labels and numeric scales. */
+.axis-label{-fx-text-fill:#48232E;-fx-font-size:11px;-fx-font-weight:700}
+.axis-tick-mark,.axis-minor-tick-mark{-fx-stroke:#B99B75}
+.axis .tick-label{-fx-fill:#48232E;-fx-font-size:10px}
+.chart-vertical-grid-lines,.chart-horizontal-grid-lines{-fx-stroke:#E9D7A9;-fx-stroke-dash-array:3 3}
+.chart-bar{-fx-background-insets:0 2 0 2}
+.chart-line-symbol{-fx-background-radius:5px;-fx-padding:5px}
+
+/* Explicitly legible labels and per-year point values on the shared dashboard charts. */
+.axis .tick-label{-fx-fill:#48232E;-fx-text-fill:#48232E;-fx-font-size:10px}
+.axis-label{-fx-text-fill:#48232E;-fx-font-size:11px;-fx-font-weight:800}
+.chart-point-label{-fx-text-fill:#48232E;-fx-font-size:9px;-fx-font-weight:800;-fx-background-color:#FFFDF8;-fx-background-radius:4;-fx-padding:1 3}
+
+/* ===== Overview dashboard charts: visible axis labels (CSS only, no Java changes) =====
+   Sector names, count scale (0, 50, 100...) and year labels were being drawn in a near-white
+   colour. -fx-tick-label-fill is the real JavaFX property for axis tick text and, as an author
+   stylesheet rule, it takes precedence over the colour the theme applies. */
+.axis{-fx-tick-label-fill:#48232E;-fx-tick-label-font-size:11px;-fx-tick-length:7px;-fx-tick-mark-visible:true;-fx-tick-labels-visible:true}
+.axis:left{-fx-border-color:transparent #48232E transparent transparent;-fx-border-width:0 1.5 0 0}
+.axis:bottom{-fx-border-color:#48232E transparent transparent transparent;-fx-border-width:1.5 0 0 0}
+.axis-tick-mark{-fx-stroke:#48232E}
+.axis-minor-tick-mark{-fx-stroke:#B99B75}
+
+/* ===== Hover interactivity (no behaviour change) ===== */
+.default-color0.chart-bar:hover{-fx-bar-fill:#A86C70;-fx-scale-y:1.35;-fx-cursor:hand;-fx-effect:dropshadow(gaussian,rgba(72,35,46,.45),10,.25,0,2)}
+.chart-line-symbol:hover{-fx-scale-x:1.3;-fx-scale-y:1.3;-fx-cursor:hand;-fx-effect:dropshadow(gaussian,rgba(121,62,76,.60),12,.35,0,0)}
+.chart-series-line:hover{-fx-stroke-width:4px}
+.chart-pie:hover{-fx-cursor:hand;-fx-effect:dropshadow(gaussian,rgba(72,35,46,.45),12,.3,0,2)}
+.kpi-card:hover{-fx-border-color:#793E4C;-fx-effect:dropshadow(gaussian,rgba(72,35,46,.22),18,.12,0,5)}
+.dashboard-panel:hover{-fx-border-color:#C9A96A;-fx-effect:dropshadow(gaussian,rgba(72,35,46,.14),16,.10,0,4)}
+.table-row-cell:hover{-fx-background-color:#F2E5D7;-fx-cursor:hand}
+.table-row-cell:selected{-fx-background-color:#E9D7A9}
+.tooltip{-fx-background-color:#48232E;-fx-text-fill:#F8F1E4;-fx-font-size:12px;-fx-font-weight:700;-fx-background-radius:8;-fx-padding:8 11;-fx-show-delay:120ms;-fx-show-duration:15s;-fx-hide-delay:50ms}
